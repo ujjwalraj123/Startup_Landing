@@ -1,12 +1,17 @@
 # Startup_Landing
 A modern responsive landing page for a startup with multiple sections and contact form functionality.
+
 ## Features
 
 - 🚀 Responsive navigation with mobile menu toggle
 - 🌈 Gradient hero section with call-to-action buttons
 - 💰 Pricing table with feature comparisons
 - 📞 Video call support section with interactive elements
-- 📝 Contact form with file upload functionality
+- 📝 **Enhanced Contact Form** with:
+  - Client-side validation with real-time feedback
+  - File upload functionality with preview
+  - Phone number formatting restrictions
+  - Success/error popup notifications
 - ❓ FAQ section with expandable questions
 - 📱 Fully responsive design
 - 🎨 Built with Tailwind CSS for modern styling
@@ -17,8 +22,25 @@ A modern responsive landing page for a startup with multiple sections and contac
 
 - HTML5
 - Tailwind CSS
-- Vanilla JavaScript (for mobile menu functionality)
+- **Vanilla JavaScript** for:
+  - Mobile menu functionality
+  - Form validation and submission handling
+  - Interactive UI elements
+  - File upload management
+  - Error handling and user feedback
 - CSS3 (custom styles)
+
+## Key Form Functionality (contact.js)
+
+- Input validation for all form fields
+- Email format verification
+- Phone number restriction (10 digits only)
+- Radio button and checkbox validation
+- File upload validation (PDF/Resume)
+- Real-time error clearing on input
+- Form submission simulation with success/failure handling
+- Custom success popup with auto-dismiss
+- File upload state management
 
 ## Getting Started
 
